@@ -100,8 +100,15 @@ p {
 .workflow-section {
     padding: 50px 20px;
     background-color: #fff;
+
+}
+.workflow-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .workflow-section h2 {
+
     font-size: 2em;
     font-weight: 500;
     margin-bottom: 20px;
@@ -141,43 +148,61 @@ p {
     max-width: 150px;
     margin: 20px;
 }
-.footer {
+.Clipboard {
     background-color: #fff;
     padding: 50px 20px;
     text-align: center;
-}
-.footer .btn-group {
-    margin: 30px 0;
-}
-.footer-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 20px 0;
-}
-.footer-links a {
-    color: #666;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 1em;
-}
-.footer-links a:hover {
-    color: #333;
-}
-.social-icons {
-    margin: 20px 0;
-}
-.social-icons a {
-    color: #666;
-    margin: 0 10px;
-    font-size: 1.5em;
-    text-decoration: none;
-}
-.social-icons a:hover {
-    color: #333;
 }
 
 .Snippets_points{
     display: flex;
     flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 12% ;
+    padding-right: 12%;
+    background-color: #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+}
+.footer .logo {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+.footer .logo img {
+    width: 50px;
+    height: 50px;
+}
+.footer .links {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.footer .links a {
+    color: #4a4a4a;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.links_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links_2 a{
+    margin-right: 26.4%;
+}
+.footer .social-icons {
+    display: flex;
+    gap: 15px;
+}
+.footer .social-icons a {
+    color: #4a4a4a;
+    font-size: 20px;
+    text-decoration: none;
 }
